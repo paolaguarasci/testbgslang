@@ -1,0 +1,25 @@
+{
+    "name": "testbgslang",
+    "displayName": "testBGSLang",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "bgs",
+            "aliases": ["bgs", "bgs"],
+            "extensions": ["bgs"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "bgs",
+            "scopeName": "source.bgs",
+            "path": "./syntaxes/bgs.tmLanguage.json"
+        }]
+    }
+}
